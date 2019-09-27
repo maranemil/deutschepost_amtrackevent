@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Autor: Mario Haas
+Version: 1.0
+Erstellung: 05.11.2008
+Beispiel: 001
+Beschreibung: Einfacher getTrackEvents-Response auf eine Abfrage von Track-Events mit einer BZL-Sendungs-ID.
+(C) Deutsche Post AG
+-->
+<n:Response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:n="urn:www-deutschepost-de:Fulfillment/TrackEventInformation/1.1/getTrackEventsResponse" xmlns:err="urn:www-deutschepost-de:GeneralTypes/1.1/errorHandling" xmlns:te="urn:www-deutschepost-de:Fulfillment/TrackEventInformation/1.1/tecommon" xsi:schemaLocation="urn:www-deutschepost-de:Fulfillment/TrackEventInformation/1.1/getTrackEventsResponse ../../XML-Schemas/V_1.0.02./getTrackEventsResponse.xsd">
+	<getTrackEventsResponse codeTableVersion="1.0" testcase="false" version="1.0">
+		<Return>
+			<ReturnCode>OK</ReturnCode>
+		</Return>
+		<MsgHeader>
+			<MsgID>081105102356A00000001</MsgID>
+			<CreationDateTime>2008-11-05T10:23:56</CreationDateTime>
+			<Receiver>6002000131</Receiver>
+			<Origin>
+				<SystemName>TEI</SystemName>
+				<SystemVersion>1.0</SystemVersion>
+			</Origin>
+		</MsgHeader>
+		<TrackEventList>
+			<TrackEvent consecutiveNumber="1">
+				<!-- Der Zeitpunkt, an dem das Trackevent - in diesem Fall die Auslieferung - erfasst wurde. -->
+				<CreationDateTime>2010-01-06T00:00:00+01:00</CreationDateTime>
+				<!-- Es handelt sich um ein Trackevent zu dem im Request nachgefragten Brief mit der entsprechenden BZL-ID. -->
+				<MailEntity id="RL359782858DE" type="LETTER"/>
+				<!-- Track Event zum Prozessschritt: "Der Brief wurde vom Zusteller ausgeliefert." -->
+				<Process step="DELIVERED" type="TNT_LETTER_SEARCH-BY-BZL-SHIPMENT-ID"/>
+				<Observation>
+					<Comment>2v21-Standardbrief EINSCHREIBEN EINWURF-NATIONAL</Comment>
+				</Observation>
+			</TrackEvent>
+		</TrackEventList>
+	</getTrackEventsResponse>
+</n:Response>

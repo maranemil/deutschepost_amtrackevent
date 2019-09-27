@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Autor: Mario Haas
+Version: 1.0
+Erstellung: 18.01.2010
+Beispiel: 004
+Beschreibung: Abfrage mehrerer Track-Events mittels "BZL Sendungs-ID".
+(C) Deutsche Post AG
+-->
+<n:Request xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:n="urn:www-deutschepost-de:Fulfillment/TrackEventInformation/1.1/getTrackEventsRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:te="urn:www-deutschepost-de:Fulfillment/TrackEventInformation/1.1/tecommon" xsi:schemaLocation="urn:www-deutschepost-de:Fulfillment/TrackEventInformation/1.1/getTrackEventsRequest ../../XML-Schemas/V_1.0.02./getTrackEventsRequest.xsd">
+	<getTrackEventsRequest codeTableVersion="1.0" version="1.0" testcase="true">
+		<MsgHeader>
+			<User>User</User>
+			<Password>Passwort</Password>
+			<MsgID>081105102356A00000001</MsgID>
+			<CreationDateTime>2007-03-27T08:00:00</CreationDateTime>
+			<Receiver>DPAG</Receiver>
+			<SubmitterSMS>
+				<CustID>6002000131</CustID>
+			</SubmitterSMS>
+			<Origin>
+				<SystemName>A-AS1</SystemName>
+				<SystemVersion>1.3</SystemVersion>
+				<CertificationDate>2008-11-01</CertificationDate>
+			</Origin>
+		</MsgHeader>
+		<TrackEventFilter>
+			<RequestingParty>
+				<CustID>6002000131</CustID>
+			</RequestingParty>
+			<MailEntity type="LETTER" id="RL359782858DE"/>
+			<Process type="TNT_LETTER_SEARCH-BY-BZL-SHIPMENT-ID"/>
+		</TrackEventFilter>
+		<TrackEventFilter>
+			<RequestingParty>
+				<CustID>6002000131</CustID>
+			</RequestingParty>
+			<MailEntity type="LETTER" id="RL359782946DE"/>
+			<Process type="TNT_LETTER_SEARCH-BY-BZL-SHIPMENT-ID"/>
+		</TrackEventFilter>
+		<TrackEventFilter>
+			<RequestingParty>
+				<CustID>6002000131</CustID>
+			</RequestingParty>
+			<MailEntity type="LETTER" id="RL359782950DE"/>
+			<Process type="TNT_LETTER_SEARCH-BY-BZL-SHIPMENT-ID"/>
+		</TrackEventFilter>
+		<TrackEventFilter>
+			<RequestingParty>
+				<CustID>6002000131</CustID>
+			</RequestingParty>
+			<MailEntity type="LETTER" id="RL359783249DE"/>
+			<Process type="TNT_LETTER_SEARCH-BY-BZL-SHIPMENT-ID"/>
+		</TrackEventFilter>
+		<TrackEventFilter>
+			<RequestingParty>
+				<CustID>6002000131</CustID>
+			</RequestingParty>
+			<MailEntity type="LETTER" id="RL359783252DE"/>
+			<Process type="TNT_LETTER_SEARCH-BY-BZL-SHIPMENT-ID"/>
+		</TrackEventFilter>
+	</getTrackEventsRequest>
+</n:Request>

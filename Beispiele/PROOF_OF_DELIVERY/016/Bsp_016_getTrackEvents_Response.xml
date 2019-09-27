@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Autor: ITCSP
+Version: 1.0
+Erstellung: 22.02.2016
+Beispiel: 016
+Beschreibung: getTrackEvents-Responset für die Abfrage von Zustellnachweis / Warenpost Trackevents anhand einer postalische Sendungsnummer
+(C) Deutsche Post AG
+-->
+<ns2:Response xmlns:ns2="urn:www-deutschepost-de:Fulfillment/TrackEventInformation/1.1/getTrackEventsResponse">
+	<getTrackEventsResponse codeTableVersion="1.0" maxResultsExceeded="false" testcase="false" version="1.1">
+		<Return>
+			<ReturnCode>OK</ReturnCode>
+		</Return>
+		<MsgHeader>
+			<MsgID>220216124000A00000016</MsgID>
+			<!-- Erstellungszeitpunkt der Response -->
+			<CreationDateTime>2016-02-22T17:45:56.553</CreationDateTime>
+			<Receiver>6998000127</Receiver>
+			<Origin>
+				<SystemName>TEI</SystemName>
+				<SystemVersion>1.1</SystemVersion>
+			</Origin>
+		</MsgHeader>
+		<TrackEventList>
+			<TrackEvent consecutiveNumber="1">
+				<!--Erstellungszeitpunkt des Events -->
+				<CreationDateTime>2016-02-15T18:10:00.000+01:00</CreationDateTime>
+				<!-- AM Auftragsnummer -->
+				<OrderID>00160205032392</OrderID>
+				<CustOrderID>
+					<CustID>6998000127</CustID>
+					<SystemName>B2B</SystemName>
+					<SystemID>160215A12300005</SystemID>
+				</CustOrderID>
+				<!-- postalische Sendungsnummer -->
+				<MailEntity id="6998000127-10-01-5-20000091"/>
+				<!-- Art des Trackevents und Prozesstyp -->
+				<Process step="50_DELIVERED_SVW" type="PROOF_OF_DELIVERY"/>
+				<Observation>
+					<MailEntityLocation>
+						<!-- Ort des Trackevents / zuständiges Briefzentrum -->
+						<ProductionPlantID>BZ68</ProductionPlantID>
+					</MailEntityLocation>
+					<!-- kundenseitige Sendungsnummer -->
+					<OtherAttribute type="custShipmentId" value="QmgEKdnBg"/>
+				</Observation>
+			</TrackEvent>
+		</TrackEventList>
+	</getTrackEventsResponse>
+</ns2:Response>

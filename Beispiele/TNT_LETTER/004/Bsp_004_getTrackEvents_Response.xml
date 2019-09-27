@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Autor: Mario Haas
+Version: 1.0
+Erstellung: 18.01.2010
+Beispiel: 004
+Beschreibung: Abfrage mehrerer Track-Events mittels "BZL Sendungs-ID".
+(C) Deutsche Post AG
+-->
+<n:Response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:n="urn:www-deutschepost-de:Fulfillment/TrackEventInformation/1.1/getTrackEventsResponse" xmlns:err="urn:www-deutschepost-de:GeneralTypes/1.1/errorHandling" xmlns:te="urn:www-deutschepost-de:Fulfillment/TrackEventInformation/1.1/tecommon" xsi:schemaLocation="urn:www-deutschepost-de:Fulfillment/TrackEventInformation/1.1/getTrackEventsResponse ../../XML-Schemas/V_1.0.02./getTrackEventsResponse.xsd">
+	<getTrackEventsResponse codeTableVersion="1.0" testcase="false" version="1.0">
+		<Return>
+			<ReturnCode>OK</ReturnCode>
+		</Return>
+		<MsgHeader>
+			<MsgID>081105102356A00000001</MsgID>
+			<CreationDateTime>2008-11-05T10:23:56</CreationDateTime>
+			<Receiver>6002000131</Receiver>
+			<Origin>
+				<SystemName>TEI</SystemName>
+				<SystemVersion>1.0</SystemVersion>
+			</Origin>
+		</MsgHeader>
+		<TrackEventList>
+			<TrackEvent consecutiveNumber="1">
+				<CreationDateTime>2009-12-01T00:00:00+01:00</CreationDateTime>
+				<MailEntity id="RL359782858DE" type="LETTER"/>
+				<Process step="DELIVERED" type="TNT_LETTER_SEARCH-BY-BZL-SHIPMENT-ID"/>
+				<Observation>
+					<Comment>2v21-Standardbrief EINSCHREIBEN EINWURF-NATIONAL</Comment>
+				</Observation>
+			</TrackEvent>
+			<TrackEvent consecutiveNumber="2">
+				<CreationDateTime>2009-12-02T00:00:00+01:00</CreationDateTime>
+				<MailEntity id="RL359782946DE" type="LETTER"/>
+				<Process step="DELIVERED" type="TNT_LETTER_SEARCH-BY-BZL-SHIPMENT-ID"/>
+				<Observation>
+					<Comment>111111112-EINSCHREIBEN EIGENHÄNDIG-NATIONAL</Comment>
+				</Observation>
+			</TrackEvent>
+			<TrackEvent consecutiveNumber="3">
+				<CreationDateTime>2009-12-03T00:00:00+01:00</CreationDateTime>
+				<MailEntity id="RL359782950DE" type="LETTER"/>
+				<Process step="ARRIVED_IN_DESTINATION_COUNTRY" type="TNT_LETTER_SEARCH-BY-BZL-SHIPMENT-ID"/>
+				<Observation>
+					<Comment>25006v21-Standardbrief Welt Luft EINSCHREIBEN-INTERNATIONAL</Comment>
+				</Observation>
+			</TrackEvent>
+			<TrackEvent consecutiveNumber="4">
+				<CreationDateTime>2009-12-02T00:00:00+01:00</CreationDateTime>
+				<MailEntity id="RL359783249DE" type="LETTER"/>
+				<Process step="IN_DELIVERY" type="TNT_LETTER_SEARCH-BY-BZL-SHIPMENT-ID"/>
+				<Observation>
+					<Comment>111111112-EINSCHREIBEN EIGENHÄNDIG-NATIONAL</Comment>
+				</Observation>
+			</TrackEvent>
+			<TrackEvent consecutiveNumber="5">
+				<CreationDateTime>2009-12-02T00:00:00+01:00</CreationDateTime>
+				<MailEntity id="RL359783252DE" type="LETTER"/>
+				<Process step="PASSED_LETTER_CENTER" type="TNT_LETTER_SEARCH-BY-BZL-SHIPMENT-ID"/>
+				<Observation>
+					<Comment>222222221-EINSCHREIBEN EINWURF-NATIONAL</Comment>
+				</Observation>
+			</TrackEvent>
+		</TrackEventList>
+	</getTrackEventsResponse>
+</n:Response>

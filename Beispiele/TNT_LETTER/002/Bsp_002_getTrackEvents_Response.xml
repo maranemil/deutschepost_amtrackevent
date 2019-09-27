@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Autor: René Rondot
+Version: 1.0
+Erstellung: 16.06.2015
+Beispiel: 002
+Beschreibung: Einfacher getTrackEvents-Request für die Abfrage eines BZL Track-Events mit einer DMC Sendungs-ID.
+(C) Deutsche Post AG
+-->
+<ns3:Response xmlns:ns3="urn:www-deutschepost-de:Fulfillment/TrackEventInformation/1.1/getTrackEventsResponse" xmlns:ns2="urn:www-deutschepost-de:Fulfillment/TrackEventInformation/1.1/getTrackEventsResponse">
+  <getTrackEventsResponse codeTableVersion="1.0" testcase="false" version="1.0">
+	<Return>
+	  <ReturnCode>OK</ReturnCode>
+	</Return>
+	<MsgHeader>
+	  <MsgID>081105102356A00000001</MsgID>
+	  <CreationDateTime>2015-06-16T09:55:00.375</CreationDateTime>
+	  <Receiver>6002000131</Receiver>
+	  <Origin>
+		<SystemName>TEI</SystemName>
+		<SystemVersion>1.0</SystemVersion>
+	  </Origin>
+	</MsgHeader>
+	<TrackEventList>
+	  <TrackEvent consecutiveNumber="1">
+		<!-- Es handelt sich um Informationen zu dem im Request nachgefragten Brief mit der entsprechenden DMC Sendungs-ID. -->
+		<MailEntity id="6002000131-10-01-327-2654" type="LETTER"/>
+		<!-- Zur angefragten Sendung konnten keine Informationen gefunden werden. -->            
+		<Process step="NO_INFO" type="TNT_LETTER_SEARCH-BY-SHIPMENT-ID"/>
+		<Observation>
+		  <Comment>NN-Unbekanntes Produkt-UNKNOWN</Comment>
+		</Observation>
+	  </TrackEvent>
+	</TrackEventList>
+  </getTrackEventsResponse>
+</ns3:Response>

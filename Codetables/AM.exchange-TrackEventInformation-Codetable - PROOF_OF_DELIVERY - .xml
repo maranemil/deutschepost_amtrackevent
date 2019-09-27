@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+AM.exchange Codetable TrackEventInformation PROOF_OF_DELIVERY*
+Autor: ITCSP
+Version: 1.1.4
+Erstellung: 01. April 2019
+(C) Deutsche Post AG
+-->
+<n:Response xmlns:n="urn:www-deutschepost-de:Ether/CatalogAccess/1.1/listCatalogValuesResponse" xmlns:CatalogAccess="urn:www-deutschepost-de:Ether/CatalogAccess/1.1/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:www-deutschepost-de:Ether/CatalogAccess/1.1/listCatalogValuesResponse ./listCatalogValuesResponse.xsd">
+	<CatalogValueList>
+		<CatalogValueRecord>
+			<Count>368</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>AMBIGUOUS</CatalogValueName>
+			<CatalogValueID>111</CatalogValueID>
+			<validFrom>2016-04-10</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die vorliegenden Sendungsinformationen lassen keine eindeutige Statusbildung zu.</Description>
+			<Comment>Verwendung beim Process.type "PROOF_OF_DELIVERY*"</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-22</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>369</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>NO_INFO</CatalogValueName>
+			<CatalogValueID>112</CatalogValueID>
+			<validFrom>2016-04-10</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Es liegen keine Informationen zur Sendung mit der angegebenen Sendungsnummer vor.</Description>
+			<Comment>Verwendung beim Process.type "PROOF_OF_DELIVERY*"</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-22</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>370</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>ANNOUNCED</CatalogValueName>
+			<CatalogValueID>113</CatalogValueID>
+			<validFrom>2016-04-10</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Der Plan zur Einlieferung der Sendung wurde erfasst.</Description>
+			<Comment>Verwendung beim Process.type "PROOF_OF_DELIVERY*"</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-22</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>371</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>POSTED</CatalogValueName>
+			<CatalogValueID>114</CatalogValueID>
+			<validFrom>2016-04-10</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Zu der Sendung wurde der Einlieferauftrag erfolgreich angelegt.</Description>
+			<Comment>Verwendung beim Process.type "PROOF_OF_DELIVERY*"</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-22</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>372</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>REJECTED</CatalogValueName>
+			<CatalogValueID>115</CatalogValueID>
+			<validFrom>2016-04-10</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Der Sendungscluster des Einlieferauftrags wurde durch die Entgeltsicherung abgewiesen.</Description>
+			<Comment>Verwendung beim Process.type "PROOF_OF_DELIVERY*"</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-22</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>373</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>REDIRECTED_SVW</CatalogValueName>
+			<CatalogValueID>116</CatalogValueID>
+			<validFrom>2016-04-10</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde an eine abweichende Adresse weitergeleitet.</Description>
+			<Comment>Verwendung beim Process.type "PROOF_OF_DELIVERY*"</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-22</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>374</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>PASSED_LETTER_CENTER_BZA_SVW</CatalogValueName>
+			<CatalogValueID>117</CatalogValueID>
+			<validFrom>2016-04-10</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde im Briefzentrum/am Stützpunkt des Einlieferungsorts erfasst.</Description>
+			<Comment>Verwendung beim Process.type "PROOF_OF_DELIVERY*"</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-22</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>375</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>PASSED_LETTER_CENTER_BZE_SVW</CatalogValueName>
+			<CatalogValueID>118</CatalogValueID>
+			<validFrom>2016-04-10</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde im Briefzentrum/am Stützpunkt des Zustellorts erfasst.</Description>
+			<Comment>Verwendung beim Process.type "PROOF_OF_DELIVERY*"</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-22</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>376</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>PASSED_LETTER_CENTER_SVW</CatalogValueName>
+			<CatalogValueID>119</CatalogValueID>
+			<validFrom>2016-04-10</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde im Briefzentrum/am Stützpunkt des Zustellorts erfasst.</Description>
+			<Comment>Verwendung beim Process.type "PROOF_OF_DELIVERY*"</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-22</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>377</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>DELIVERY_SHIFTED_SVW</CatalogValueName>
+			<CatalogValueID>120</CatalogValueID>
+			<validFrom>2016-04-10</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Auslieferung der Sendung verzögert sich.</Description>
+			<Comment>Verwendung beim Process.type "PROOF_OF_DELIVERY*"</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-22</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>378</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>SENT_BACK_REFUSED_SVW</CatalogValueName>
+			<CatalogValueID>121</CatalogValueID>
+			<validFrom>2016-04-10</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung konnte nicht ausgeliefert werden, da die Annahme verweigert wurde.</Description>
+			<Comment>Verwendung beim Process.type "PROOF_OF_DELIVERY*"</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-22</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>379</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>SENT_BACK_MISC_SVW</CatalogValueName>
+			<CatalogValueID>122</CatalogValueID>
+			<validFrom>2016-04-10</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde aus einem nicht näher spezifiziertem Grund zurückgesendet.</Description>
+			<Comment>Verwendung beim Process.type "PROOF_OF_DELIVERY*"</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-22</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>380</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>NOTIFIED_SVW</CatalogValueName>
+			<CatalogValueID>123</CatalogValueID>
+			<validFrom>2016-04-10</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Der Empfänger wurde über den erfolglosen Zustellversuch informiert.</Description>
+			<Comment>Verwendung beim Process.type "PROOF_OF_DELIVERY*"</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-22</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>381</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>DELIVERED_SVW</CatalogValueName>
+			<CatalogValueID>124</CatalogValueID>
+			<validFrom>2016-04-10</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde ausgeliefert.</Description>
+			<Comment>Verwendung beim Process.type "PROOF_OF_DELIVERY*"</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-22</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>382</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>DELIVERY_CANCELLED_SVW</CatalogValueName>
+			<CatalogValueID>125</CatalogValueID>
+			<validFrom>2016-04-10</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Auslieferung wurde storniert.</Description>
+			<Comment>Verwendung beim Process.type "PROOF_OF_DELIVERY*"</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-22</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>383</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>FETCHED_NOTIFIED_SVW</CatalogValueName>
+			<CatalogValueID>126</CatalogValueID>
+			<validFrom>2016-04-10</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde ausgeliefert.</Description>
+			<Comment>Verwendung beim Process.type "PROOF_OF_DELIVERY*"</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-22</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>384</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>SENT_BACK_SVW</CatalogValueName>
+			<CatalogValueID>127</CatalogValueID>
+			<validFrom>2016-04-10</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde an den Absender zurückgeschickt.</Description>
+			<Comment>Verwendung beim Process.type "PROOF_OF_DELIVERY*"</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-22</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>391</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Type</CatalogName>
+			<CatalogValueName>PROOF_OF_DELIVERY</CatalogValueName>
+			<CatalogValueID>7</CatalogValueID>
+			<validFrom>2016-04-10</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Zur Abfrage von Ereignissen zu Briefsendungen im Inland mit der Dienstleistung Zustellnachweis. Bei einer Suche über EKP und Zeitraum wird nach dem Zeitstempel des Ereignisses gesucht.</Description>
+			<Comment>Prozesstyp</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-23</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>392</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Type</CatalogName>
+			<CatalogValueName>PROOF_OF_DELIVERY_CREATION_DATE</CatalogValueName>
+			<CatalogValueID>8</CatalogValueID>
+			<validFrom>2016-04-10</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Zur Abfrage von Ereignissen zu Briefsendungen im Inland mit der Dienstleistung Zustellnachweis. Bei einer Suche über EKP und Zeitraum wird nach dem Zeitstempel der Verfügbarkeit der Information gesucht.</Description>
+			<Comment>Prozesstyp</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-23</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>463</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>SystemName</CatalogName>
+			<CatalogValueName>TEI</CatalogValueName>
+			<CatalogValueID>3</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>In Version 1.0 des Protokolls ist immer "TEI" einzusetzen.</Description>
+			<Comment>Name des Systems, dem die Nachricht entstammt.</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-24</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>541</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Unit.Height</CatalogName>
+			<CatalogValueName>mm</CatalogValueName>
+			<CatalogValueID>1</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Angabe der Höhe erfolgt in Millimeter</Description>
+			<Comment>Einheit für die Angabe einer Höhe</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2008-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>542</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Unit.Height</CatalogName>
+			<CatalogValueName>cm</CatalogValueName>
+			<CatalogValueID>2</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Angabe der Höhe erfolgt in Zentimeter</Description>
+			<Comment>Einheit für die Angabe einer Höhe</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2008-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>552</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Version</CatalogName>
+			<CatalogValueName>1.1</CatalogValueName>
+			<CatalogValueID>3</CatalogValueID>
+			<validFrom>2015-07-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Version 1.1</Description>
+			<Comment/>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-24</ChangedAt>
+		</CatalogValueRecord>
+	</CatalogValueList>
+</n:Response>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Autor: Mario Haas
+Version: 1.0
+Erstellung: 18.01.2010
+Beispiel: 001
+Beschreibung: Einfacher getTrackEvents-Request für die Abfrage eines BZL Track-Events mit einer "BZL-Sendungs-ID".
+(C) Deutsche Post AG
+-->
+<n:Request xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:n="urn:www-deutschepost-de:Fulfillment/TrackEventInformation/1.1/getTrackEventsRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:te="urn:www-deutschepost-de:Fulfillment/TrackEventInformation/1.1/tecommon" xsi:schemaLocation="urn:www-deutschepost-de:Fulfillment/TrackEventInformation/1.1/getTrackEventsRequest ../../XML-Schemas/V_1.0.02./getTrackEventsRequest.xsd">
+	<getTrackEventsRequest codeTableVersion="1.0" version="1.0" testcase="true">
+		<MsgHeader>
+			<User>User</User>
+			<Password>Passwort</Password>
+			<MsgID>081105102356A00000001</MsgID>
+			<CreationDateTime>2007-03-27T08:00:00</CreationDateTime>
+			<Receiver>DPAG</Receiver>
+			<SubmitterSMS>
+				<CustID>6002000131</CustID>
+			</SubmitterSMS>
+			<Origin>
+				<SystemName>A-AS1</SystemName>
+				<SystemVersion>1.3</SystemVersion>
+				<CertificationDate>2008-11-01</CertificationDate>
+			</Origin>
+		</MsgHeader>
+		<TrackEventFilter>
+			<!-- Die EKP, mit der angefragt wird. Dient der Berechtigungsprüfung. Immer eine Pflichtangabe. -->
+			<RequestingParty>
+				<CustID>6002000131</CustID>
+			</RequestingParty>
+			<!-- Es werden Track Events zu dem Brief mit der BZL-ID RL359782858DE gesucht. Pflichtangabe bei der Suche nach BZL-Tracks. -->
+			<MailEntity type="LETTER" id="RL359782858DE"/>
+			<!-- Die gesuchten Track Events sind im T&T Brief Prozess entstanden. Verwendetes Suchmuster ist "BZL-Sendungs-ID". -->
+			<Process type="TNT_LETTER_SEARCH-BY-BZL-SHIPMENT-ID"/>
+			<!-- Bei der Suche nach BZL Track Events kann zusätzlich das Einlieferungsdatum der Sendung als optionales Suchkriterium angegeben werden. -->
+			<OtherAttribute type="POSTED_DATE" value="2010-01-05"/>
+		</TrackEventFilter>
+	</getTrackEventsRequest>
+</n:Request>

@@ -1,0 +1,1790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+AM.exchange Codetable
+Autor: ITCSP
+Version: 1.1.4
+Erstellung: 01. April 2019
+(C) Deutsche Post AG
+-->
+<n:Response xmlns:n="urn:www-deutschepost-de:Ether/CatalogAccess/1.1/listCatalogValuesResponse" xmlns:CatalogAccess="urn:www-deutschepost-de:Ether/CatalogAccess/1.1/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:www-deutschepost-de:Ether/CatalogAccess/1.1/listCatalogValuesResponse ./listCatalogValuesResponse.xsd">
+	<CatalogValueList>
+		<CatalogValueRecord>
+			<Count>13</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>CodeTableVersion</CatalogName>
+			<CatalogValueName>1.0</CatalogValueName>
+			<CatalogValueID>1</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Version der zu verwendenden AM.exchange-Codetable im Attribut "codeTableVersion"</Description>
+			<Comment>Derzeit immer 1.0</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2006-01-01</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>59</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>ErrCat</CatalogName>
+			<CatalogValueName>WARNING</CatalogValueName>
+			<CatalogValueID>1</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>WARNING - Bei dem Fehler handelt es sich um eine Warnung</Description>
+			<Comment>Rückgabewert der AM Service-Operationen</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2006-01-01</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>60</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>ErrCat</CatalogName>
+			<CatalogValueName>ERROR</CatalogValueName>
+			<CatalogValueID>2</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>ERROR - Bei dem Fehler handelt es sich um einen Fehler</Description>
+			<Comment>Rückgabewert der AM Service-Operationen</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2006-01-01</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>80</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>MailEntity.Type</CatalogName>
+			<CatalogValueName>LETTER</CatalogValueName>
+			<CatalogValueID>1</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Brief</Description>
+			<Comment>Typ der postalischen Einheit</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2007-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>81</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>MailEntity.Type</CatalogName>
+			<CatalogValueName>BDL</CatalogValueName>
+			<CatalogValueID>2</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Bund</Description>
+			<Comment>Typ der postalischen Einheit</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2007-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>82</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>MailEntity.Type</CatalogName>
+			<CatalogValueName>TRA</CatalogValueName>
+			<CatalogValueID>3</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Behälter</Description>
+			<Comment>Typ der postalischen Einheit</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2007-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>83</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>MailEntity.Type</CatalogName>
+			<CatalogValueName>TRT</CatalogValueName>
+			<CatalogValueID>4</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Behälterwagen</Description>
+			<Comment>Typ der postalischen Einheit</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2007-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>84</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>MailEntity.Type</CatalogName>
+			<CatalogValueName>PAL</CatalogValueName>
+			<CatalogValueID>5</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Palette</Description>
+			<Comment>Typ der postalischen Einheit</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2007-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>238</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>NO_INFO</CatalogValueName>
+			<CatalogValueID>1</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Es liegen keine Informationen zur Sendung mit der angegebenen Sendungsnummer vor.</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>239</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>POSTED_WRONG_DATE</CatalogValueName>
+			<CatalogValueID>2</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Das angegebene Einlieferungsdatum ist falsch</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>240</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>AMBIGUOUS</CatalogValueName>
+			<CatalogValueID>3</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die vorliegenden Sendungsinformationen lassen keine eindeutige Statusbildung zu.</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>241</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>POSTED</CatalogValueName>
+			<CatalogValueID>4</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde eingeliefert</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>242</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>POSTED_NEXT_EVENTS_MISSING</CatalogValueName>
+			<CatalogValueID>5</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde eingeliefert</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>243</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>PASSED_LETTER_CENTER</CatalogValueName>
+			<CatalogValueID>6</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde im Briefzentrum verarbeitet</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>244</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>PASSED_LETTER_CENTER_FORWARDING_REQUEST</CatalogValueName>
+			<CatalogValueID>7</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde im Briefzentrum verarbeitet. Es wurde ein Nachsendeantrag berücksichtigt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>245</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>PASSED_LETTER_CENTER_NEXT_EVENTS_MISSING</CatalogValueName>
+			<CatalogValueID>8</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde im Briefzentrum verarbeitet</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>246</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>PASSED_LETTER_CENTER_FORWARDING_REQUEST_NEXT_EVENTS_MISSING</CatalogValueName>
+			<CatalogValueID>9</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde im Briefzentrum verarbeitet. Es wurde ein Nachsendeantrag berücksichtigt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>247</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>IN_DELIVERY</CatalogValueName>
+			<CatalogValueID>10</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung befindet sich in der Zustellung</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>248</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>IN_DELIVERY_NEXT_EVENTS_MISSING</CatalogValueName>
+			<CatalogValueID>11</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung befindet sich in der Zustellung</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>249</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>IN_DELIVERY_MARBURG</CatalogValueName>
+			<CatalogValueID>12</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung befindet sich in der Zustellung in der Briefermittlungsstelle Marburg</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>250</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>IN_DELIVERY_MARBURG_NEXT_EVENTS_MISSING</CatalogValueName>
+			<CatalogValueID>13</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung befindet sich in der Zustellung in der Briefermittlungsstelle Marburg</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>251</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>IN_DELIVERY_SHIFTED</CatalogValueName>
+			<CatalogValueID>14</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Zustellung wurde verschoben (damit der Empfänger sicher erreicht werden kann)</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>252</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>IN_DELIVERY_SHIFTED_NEXT_EVENTS_MISSING</CatalogValueName>
+			<CatalogValueID>15</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Zustellung wurde verschoben (damit der Empfänger sicher erreicht werden kann)</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>253</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>IN_DELIVERY_WAITING_FOR_NEXT_DELIVERY</CatalogValueName>
+			<CatalogValueID>16</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Der Zustellversuch schlug fehl, an einem der folgenden beiden Werktage wird der 2. Zustellversuch unternommen</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>254</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>IN_DELIVERY_WAITING_FOR_NEXT_DELIVERY_NEXT_EVENTS_MISSING</CatalogValueName>
+			<CatalogValueID>17</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Der Zustellversuch schlug fehl, an einem der folgenden beiden Werktage wird der 2. Zustellversuch unternommen</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>255</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>NOTIFIED</CatalogValueName>
+			<CatalogValueID>18</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Der Empfänger konnte nicht angetroffen werden und wurde vom Zusteller benachrichtigt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>256</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>NOTIFIED_NEXT_EVENTS_MISSING</CatalogValueName>
+			<CatalogValueID>19</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Der Empfänger konnte nicht angetroffen werden und wurde vom Zusteller benachrichtigt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>257</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>NOTIFIED_KEY_ACCOUNT</CatalogValueName>
+			<CatalogValueID>20</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde für die Auslieferung an den Großkunden bereitgestellt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>258</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>NOTIFIED_KEY_ACCOUNT_NEXT_EVENTS_MISSING</CatalogValueName>
+			<CatalogValueID>21</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde für die Auslieferung an den Großkunden bereitgestellt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>259</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>NOTIFIED_PO_BOX</CatalogValueName>
+			<CatalogValueID>22</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Benachrichtigung für die Sendung wurde in das Postfach des Empfängers eingelegt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>260</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>NOTIFIED_PO_BOX_NEXT_EVENTS_MISSING</CatalogValueName>
+			<CatalogValueID>23</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Benachrichtigung für die Sendung wurde in das Postfach des Empfängers eingelegt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>261</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>NOTIFIED_READY_FOR_HAND_OUT</CatalogValueName>
+			<CatalogValueID>24</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Sendung wurde in der Ausgabefiliale zur Abholung bereitgelegt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>262</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>NOTIFIED_READY_FOR_HAND_OUT_NEXT_EVENTS_MISSING</CatalogValueName>
+			<CatalogValueID>25</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Sendung wurde in der Ausgabefiliale zur Abholung bereitgelegt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>263</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>SENT_BACK</CatalogValueName>
+			<CatalogValueID>26</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung geht an den Absender zurück</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>264</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>SENT_BACK_NEXT_EVENTS_MISSING</CatalogValueName>
+			<CatalogValueID>27</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung geht an den Absender zurück</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>265</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>SENT_BACK_REFUSED</CatalogValueName>
+			<CatalogValueID>28</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Empfänger hat die Annahme der Sendung verweigert, die Sendung geht an den Absender zurück</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>266</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>SENT_BACK_REFUSED_NEXT_EVENTS_MISSING</CatalogValueName>
+			<CatalogValueID>29</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Empfänger hat die Annahme der Sendung verweigert, die Sendung geht an den Absender zurück</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>267</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>SENT_BACK_MISC</CatalogValueName>
+			<CatalogValueID>30</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Lagerfrist der Sendung ist abgelaufen oder die Empfängeradresse ist nicht bekannt, die Sendung geht an den Absender zurück oder der Absender der Sendung ist nicht bekannt, die Sendung geht in die Briefermittlung nach Marburg</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>268</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>SENT_BACK_MISC_NEXT_EVENTS_MISSING</CatalogValueName>
+			<CatalogValueID>31</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Lagerfrist der Sendung ist abgelaufen oder die Empfängeradresse ist nicht bekannt, die Sendung geht an den Absender zurück oder der Absender der Sendung ist nicht bekannt, die Sendung geht in die Briefermittlung nach Marburg</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>269</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>PASSED_LETTER_CENTER_AFTER_SENT_BACK</CatalogValueName>
+			<CatalogValueID>32</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wird in einem Briefzentrum verarbeitet, nachdem der Status zurück an den Absender festgestellt wurde.</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>270</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>PASSED_LETTER_CENTER_AFTER_SENT_BACK_FORWARDING_REQUEST</CatalogValueName>
+			<CatalogValueID>33</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wird in einem Briefzentrum verarbeitet, nachdem der Status zurück an den Absender festgestellt wurde.</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>271</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>PASSED_LETTER_CENTER_AFTER_SENT_BACK_NEXT_EVENTS_MISSING</CatalogValueName>
+			<CatalogValueID>34</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wird in einem Briefzentrum verarbeitet, nachdem der Status zurück an den Absender festgestellt wurde.</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>272</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>PASSED_LETTER_CENTER_AFTER_SENT_BACK_FORWARDING_REQUEST_NEXT_EVENTS_MISSING</CatalogValueName>
+			<CatalogValueID>35</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wird in einem Briefzentrum verarbeitet, nachdem der Status zurück an den Absender festgestellt wurde.</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>273</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>DELIVERED</CatalogValueName>
+			<CatalogValueID>36</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde zugestellt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>274</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>DELIVERED_DATE_UNREADABLE</CatalogValueName>
+			<CatalogValueID>37</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde zugestellt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>275</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>DELIVERED_MARBURG</CatalogValueName>
+			<CatalogValueID>38</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung lagert / lagerte in Briefermittlung Marburg</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>276</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>DELIVERED_MARBURG_DATE_UNREADABLE</CatalogValueName>
+			<CatalogValueID>39</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung lagert / lagerte in Briefermittlung Marburg</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>277</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>DELIVERED_MARBURG_ARCHIVED</CatalogValueName>
+			<CatalogValueID>40</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung lagert / lagerte in Briefermittlung Marburg</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>278</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>DELIVERED_MARBURG_ARCHIVED_NN</CatalogValueName>
+			<CatalogValueID>41</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Nachnahmesendung lagert / lagerte in Briefermittlung Marburg</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>279</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>DELIVERED_MARBURG_NEW_IDENT</CatalogValueName>
+			<CatalogValueID>42</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde von der Briefermittlung Marburg mit neuer Sendungsnummer an den Absender zurück oder an den Empfänger weitergesandt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>280</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>DELIVERED_MARBURG_NEW_IDENT_NN</CatalogValueName>
+			<CatalogValueID>43</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Nachnahmesendung wurde von der Briefermittlung Marburg mit neuer Sendungsnummer an den Absender zurück oder an den Empfänger weitergesandt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>281</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>FETCHED_NOTIFIED</CatalogValueName>
+			<CatalogValueID>44</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die benachrichtigte Sendung wurde in der Filiale abgeholt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>282</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>FETCHED_NOTIFIED_DATE_UNREADABLE</CatalogValueName>
+			<CatalogValueID>45</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die benachrichtigte Sendung wurde in der Filiale abgeholt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>283</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>FETCHED_PO_BOX</CatalogValueName>
+			<CatalogValueID>46</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Postfachsendung wurde vom Empfänger abgeholt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>284</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>FETCHED_PO_BOX_DATE_UNREADABLE</CatalogValueName>
+			<CatalogValueID>47</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Postfachsendung wurde vom Empfänger abgeholt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>285</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>FETCHED_KEY_ACCOUNT</CatalogValueName>
+			<CatalogValueID>48</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Sendung wurde an den Großkunden ausgegeben / ausgeliefert</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>286</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>FETCHED_KEY_ACCOUNT_DATE_UNREADABLE</CatalogValueName>
+			<CatalogValueID>49</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Sendung wurde an den Großkunden ausgegeben / ausgeliefert</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>287</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>FETCHED_PENDING_DELIVERY_CONFIRMATION</CatalogValueName>
+			<CatalogValueID>50</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Benachrichtigte / postlagernde Sendung wurde vom Empfänger abgeholt, Auslieferungsbeleg liegt noch nicht vor</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>288</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>DELIVERED_NN</CatalogValueName>
+			<CatalogValueID>51</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Nachnahmesendung wurde zugestellt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>289</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>RETURNED_TO_SENDER</CatalogValueName>
+			<CatalogValueID>52</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde dem Absender zugestellt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>290</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>RETURNED_TO_SENDER_DATE_UNREADABLE</CatalogValueName>
+			<CatalogValueID>53</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde dem Absender zugestellt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>291</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>RETURNED_TO_SENDER_AFTER_REFUSED</CatalogValueName>
+			<CatalogValueID>54</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde dem Absender nach Annahmeverweigerung zugestellt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>292</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>RETURNED_TO_SENDER_AFTER_REFUSED_DATE_UNREADABLE</CatalogValueName>
+			<CatalogValueID>55</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde dem Absender nach Annahmeverweigerung zugestellt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>293</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>RETURNED_TO_SENDER_AFTER_NOTIFIED</CatalogValueName>
+			<CatalogValueID>56</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde dem Absender zugestellt, nachdem der Empfänger die benachrichtigte Sendung nicht abgeholt hat.</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>294</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>RETURNED_TO_SENDER_AFTER_NOTIFIED_DATE_UNREADABLE</CatalogValueName>
+			<CatalogValueID>57</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde dem Absender zugestellt, nachdem der Empfänger die benachrichtigte Sendung nicht abgeholt hat.</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>295</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>RETURNED_TO_SENDER_AFTER_NOTIFIED_PO_BOX</CatalogValueName>
+			<CatalogValueID>58</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde dem Absender zugestellt, nachdem der Empfänger die benachrichtigte Sendung nicht aus dem Postfach abgeholt hat.</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>296</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>RETURNED_TO_SENDER_AFTER_NOTIFIED_PO_BOX_DATE_UNREADABLE</CatalogValueName>
+			<CatalogValueID>59</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde dem Absender zugestellt, nachdem der Empfänger die benachrichtigte Sendung nicht aus dem Postfach abgeholt hat.</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>297</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>RETURNED_TO_SENDER_AFTER_NOTIFIED_KEY_ACCOUNT</CatalogValueName>
+			<CatalogValueID>60</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde dem Absender zugestellt, nachdem der Empfänger die benachrichtigte / bereitgestellte Sendung nicht abgeholt oder deren Annahme verweigert hat.</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>298</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>RETURNED_TO_SENDER_AFTER_NOTIFIED_KEY_ACCOUNT_DATE_UNREADABLE</CatalogValueName>
+			<CatalogValueID>61</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde dem Absender zugestellt, nachdem der Empfänger die benachrichtigte / bereitgestellte Sendung nicht abgeholt oder deren Annahme verweigert hat.</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>299</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>PAID_MAILMAN</CatalogValueName>
+			<CatalogValueID>62</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Der Zusteller hat den Nachnahmebetrag abgerechnet</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>300</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>PAID_MAILMAN_NEXT_EVENTS_MISSING</CatalogValueName>
+			<CatalogValueID>63</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Der Zusteller hat den Nachnahmebetrag abgerechnet</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>301</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>PAID_EPOS</CatalogValueName>
+			<CatalogValueID>64</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Der Nachnahmebetrag wurde im EPOS-System abgerechnet</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>302</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>PAID_EPOS_NEXT_EVENTS_MISSING</CatalogValueName>
+			<CatalogValueID>65</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Der Nachnahmebetrag wurde im EPOS-System abgerechnet</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>303</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>AMOUNT_TRANSFERED</CatalogValueName>
+			<CatalogValueID>66</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Der Nachnahmebetrag wurde an den Absender überweisen</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>304</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>AMOUNT_TRANSFERED_FAILED</CatalogValueName>
+			<CatalogValueID>67</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Überweisung des Nachnahmebetrages an den Absender ist fehlgeschlagen</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>305</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>TO_BE_SENT_ABROAD</CatalogValueName>
+			<CatalogValueID>68</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Ankunft einer internationalen Exportsendung im internationalen Postzentrum</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>306</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>ARRIVED_IN_DESTINATION_COUNTRY</CatalogValueName>
+			<CatalogValueID>69</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Ankunft einer internationalen Export oder Transitsendung im Bestimmungsland</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>307</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>POSTED_MAIL_TERMINAL</CatalogValueName>
+			<CatalogValueID>70</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde im Ausland eingeliefert</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>308</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>POSTED_ARRIVED</CatalogValueName>
+			<CatalogValueID>71</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Ankunft einer internationalen Importsendung im internationalen Postzentrum</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>309</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>POSTED_MAIL_TERMINAL_IPZ</CatalogValueName>
+			<CatalogValueID>72</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde im Ausland eingeliefert</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>310</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>ARRIVED_TRANSIT</CatalogValueName>
+			<CatalogValueID>73</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Ankunft einer internationalen Transitsendung im internationalen Postzentrum</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>311</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>SENT_ABROAD_TRANSIT</CatalogValueName>
+			<CatalogValueID>74</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Abgang einer internationalen Transitsendung im internationalen Postsendung (Weiterleitung ins Ausland)</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>312</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>DELIVERY_ATTEMPTED</CatalogValueName>
+			<CatalogValueID>75</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Zustellversuch im Ausland. Verschiedene Vorgänge: Benachrichtigung, Annahmeverweigerung, …</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>313</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>SENT_BACK_ABROAD</CatalogValueName>
+			<CatalogValueID>76</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Internationale Retoure</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>314</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>IN_DELIVERY_PZA</CatalogValueName>
+			<CatalogValueID>77</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Sendung befindet sich in Zustellung</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>315</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>ISSUE_OF_A_REPLACEMENT_CERTIFICATE_PZA</CatalogValueName>
+			<CatalogValueID>78</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Eine Ersatzurkunde wurde ausgestellt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>316</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>SENT_BACK_PZA</CatalogValueName>
+			<CatalogValueID>79</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung geht zurück an den Absender</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>317</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>ZU_UNCURABLE_PZA</CatalogValueName>
+			<CatalogValueID>80</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde zugestellt. Die Urkunde wurde an Kundenservice Brief übermittelt und weist unheilbare Mängel auf</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>318</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>DELIVERED_PZA_ZU_NOK_PZA</CatalogValueName>
+			<CatalogValueID>81</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde zugestellt. Die Urkunde weist Mängel auf</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>319</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>DELIVERED_PZA_ZU_OK_PZA</CatalogValueName>
+			<CatalogValueID>82</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde zugestellt. Die Urkunde weist keine Mängel auf</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>320</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>SM_CURED_PZA</CatalogValueName>
+			<CatalogValueID>83</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde zugestellt. Die Urkunde wurde an Kunddenservice Brief übermittelt und die heilbaren Mängel wurden geheilt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>321</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>SM_CURABLE_PZA</CatalogValueName>
+			<CatalogValueID>84</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde zugestellt. Die Urkunde wurde an Kunddenservice Brief übermittelt und weist heilbare Mängel auf</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>322</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>ZU_RECOMMITTAL_PZA</CatalogValueName>
+			<CatalogValueID>85</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde zugestellt. Die Urkunde wurde an Kunddenservice Brief übermittelt und weist unheilbare Mängel auf. Es wurde eine Neueinlieferung veranlasst</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>323</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>IN_DELIVERY_PI</CatalogValueName>
+			<CatalogValueID>86</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung befindet sich in der Zustellung</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>324</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>ISSUE_OF_A_REPLACEMENT_CERTIFICATE_PI</CatalogValueName>
+			<CatalogValueID>87</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Aufgrund eines Mangels am Formular wurde ein Ersatzformular ausgestellt. Der Fehler wird derzeit behoben.</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>325</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>DEFECT_IN_CERTIFICATE_PI</CatalogValueName>
+			<CatalogValueID>88</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Sendung wurde am mit Mangel eingeliefert. Absender wird kontaktiert.</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>326</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>CORRECTED_NEW_DELIVERY_PI</CatalogValueName>
+			<CatalogValueID>89</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Korrektur durch SM ist erfolgt. Sendung der Zustellung übergeben</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>327</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>NEW_POSTING_PI</CatalogValueName>
+			<CatalogValueID>90</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Korrektur und neue Einlieferung durch Absender</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>328</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>DELIVERED_PI</CatalogValueName>
+			<CatalogValueID>91</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde zugestellt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>329</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>UNDELIVERED_PI</CatalogValueName>
+			<CatalogValueID>92</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung konnte aufgrund der Empfängerangaben nicht zugestellt werden.</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>330</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>NOTIFIED_PI</CatalogValueName>
+			<CatalogValueID>93</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Der Empfänger konnte nicht angetroffen werden und wurde vom Zusteller benachrichtigt. Die Sendung wird zur Abholung in der Filiale bereitgestellt.</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>331</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>SENT_BACK_REFUSED_PI</CatalogValueName>
+			<CatalogValueID>94</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Empfänger hat die Annahme der Sendung verweigert, die Sendung geht an den Absender zurück</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>332</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>SENT_BACK_MISC_PI</CatalogValueName>
+			<CatalogValueID>95</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Lagerfrist (7 Werktage) der Sendung ist abgelaufen, die Sendung geht an den Absender zurück.</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>333</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>FETCHED_NOTIFIED_PI</CatalogValueName>
+			<CatalogValueID>96</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die benachrichtigte Sendung wurde in der Filiale abgeholt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2010-05-31</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>334</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>IDENTIFIED</CatalogValueName>
+			<CatalogValueID>97</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Das Formular wurde geprüft und für korrekt befunden. Es wird dem Absender übermittelt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2015-06-16</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>335</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>QA</CatalogValueName>
+			<CatalogValueID>98</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Das Formular wurde geprüft und für nicht korrekt befunden. Es wird der zuständigen Stelle zur Korrektur übermittelt</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2015-06-16</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>336</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>IDENTIFIED_AFTER_QA</CatalogValueName>
+			<CatalogValueID>99</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Das Formular wurde korrigiert, erneut geprüft und für korrekt befunden. Es wird dem Absender übermittelt.</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2015-06-16</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>337</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>SM_UNCURABLE_PI</CatalogValueName>
+			<CatalogValueID>100</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Korrektur ist durch Kundenservice nicht möglich.</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2015-06-16</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>338</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>SENT_BACK_ASSURED_PI</CatalogValueName>
+			<CatalogValueID>101</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Bei einer Retoursendung Postident wurde das Formular geprüft. Formular und Sendung gehen zurück an den Absender.</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>1P3</ChangedBy>
+			<ChangedAt>2015-06-16</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>362</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Type</CatalogName>
+			<CatalogValueName>TNT_LETTER_SEARCH-BY-BZL-SHIPMENT-ID</CatalogValueName>
+			<CatalogValueID>1</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Zur Abfrage von Ereignissen zu Briefsendungen anhand der BZL-ID.</Description>
+			<Comment>Prozesstyp</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2007-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>363</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Type</CatalogName>
+			<CatalogValueName>TNT_LETTER_SEARCH-BY-SHIPMENT-ID</CatalogValueName>
+			<CatalogValueID>2</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Zur Abfrage von Ereignissen zu Briefsendungen anhand der Sendungs-ID des Datamatrix-Codes.</Description>
+			<Comment>Prozesstyp</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2007-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>364</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Type</CatalogName>
+			<CatalogValueName>TNT_LETTER_SEARCH-BY-CUSTOMER-DATA</CatalogValueName>
+			<CatalogValueID>3</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Zur Abfrage von Ereignissen zu Briefsendungen anhand von kundenindividuellen Daten zur Sendung.</Description>
+			<Comment>Prozesstyp</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2007-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>389</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Receiver</CatalogName>
+			<CatalogValueName>DPAG</CatalogValueName>
+			<CatalogValueID>1</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Stets zu verwendender Wert für MsgHeader.Receiver</Description>
+			<Comment>In Version 1.0 ist immer "DPAG" für dieses Nachrichtenfeld zu verwenden.</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2006-01-01</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>390</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>ReturnCode</CatalogName>
+			<CatalogValueName>OK</CatalogValueName>
+			<CatalogValueID>1</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Der Request wurde korrekt verarbeitet.</Description>
+			<Comment>Gesamtstatus der Verarbeitung eines Requests</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2006-01-01</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>391</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>ReturnCode</CatalogName>
+			<CatalogValueName>WARNING</CatalogValueName>
+			<CatalogValueID>2</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Der Request wurde verarbeitet, es sind aber Warnungen aufgetreten.</Description>
+			<Comment>Gesamtstatus der Verarbeitung eines Requests</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2006-01-01</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>392</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>ReturnCode</CatalogName>
+			<CatalogValueName>ERROR</CatalogValueName>
+			<CatalogValueID>3</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Der Request wurde nicht verarbeitet, da Fehler aufgetreten sind.</Description>
+			<Comment>Gesamtstatus der Verarbeitung eines Requests</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2006-01-01</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>436</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>SystemName</CatalogName>
+			<CatalogValueName>TEI</CatalogValueName>
+			<CatalogValueID>3</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>In Version 1.0 des Protokolls ist immer "TEI" einzusetzen.</Description>
+			<Comment>Name des Systems, dem die Nachricht entstammt.</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-24</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>510</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>TrackEventFilter.OtherAttribute.Type</CatalogName>
+			<CatalogValueName>POSTED_DATE</CatalogValueName>
+			<CatalogValueID>1</CatalogValueID>
+			<validFrom>2009-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Zur Filterung anhand des Einlieferungstages der Sendungen bei der Deutschen Post.</Description>
+			<Comment>Verwendung beim Process.type "TNT_LETTER_SEARCH-BY-* "</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2008-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>514</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Unit.Height</CatalogName>
+			<CatalogValueName>mm</CatalogValueName>
+			<CatalogValueID>1</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Angabe der Höhe erfolgt in Millimeter</Description>
+			<Comment>Einheit für die Angabe einer Höhe</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2008-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>515</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Unit.Height</CatalogName>
+			<CatalogValueName>cm</CatalogValueName>
+			<CatalogValueID>2</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Angabe der Höhe erfolgt in Zentimeter</Description>
+			<Comment>Einheit für die Angabe einer Höhe</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2008-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>516</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Unit.Length</CatalogName>
+			<CatalogValueName>mm</CatalogValueName>
+			<CatalogValueID>1</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Angabe der Länge erfolgt in Millimeter</Description>
+			<Comment>Einheit für die Angabe einer Länge</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2008-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>517</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Unit.Length</CatalogName>
+			<CatalogValueName>cm</CatalogValueName>
+			<CatalogValueID>2</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Angabe der Länge erfolgt in Zentimeter</Description>
+			<Comment>Einheit für die Angabe einer Länge</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2008-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>520</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Unit.weight</CatalogName>
+			<CatalogValueName>g</CatalogValueName>
+			<CatalogValueID>1</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Gewichtsangabe erfolgt in Gramm</Description>
+			<Comment>Einheit für eine Gewichtsangabe</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2006-01-01</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>521</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Unit.weight</CatalogName>
+			<CatalogValueName>kg</CatalogValueName>
+			<CatalogValueID>2</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Gewichtsangabe erfolgt in Kilogramm</Description>
+			<Comment>Einheit für eine Gewichtsangabe</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2006-01-01</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>522</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Unit.Width</CatalogName>
+			<CatalogValueName>mm</CatalogValueName>
+			<CatalogValueID>1</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Angabe der Breite erfolgt in Millimeter</Description>
+			<Comment>Einheit für die Angabe einer Breite</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2008-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>523</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Unit.Width</CatalogName>
+			<CatalogValueName>cm</CatalogValueName>
+			<CatalogValueID>2</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Angabe der Breite erfolgt in Zentimeter</Description>
+			<Comment>Einheit für die Angabe einer Breite</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2008-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>525</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Version</CatalogName>
+			<CatalogValueName>1.1</CatalogValueName>
+			<CatalogValueID>3</CatalogValueID>
+			<validFrom>2015-07-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Version 1.1</Description>
+			<Comment/>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-24</ChangedAt>
+		</CatalogValueRecord>
+	</CatalogValueList>
+</n:Response>

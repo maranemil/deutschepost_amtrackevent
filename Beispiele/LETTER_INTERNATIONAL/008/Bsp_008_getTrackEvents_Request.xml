@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Autor: Damian Ludwig
+Version: 1.0
+Erstellung: 19.11.2015
+Beispiel: 008
+Beschreibung: Einfacher getTrackEvents-Request für die Abfrage von internationalen Sendungen Anhand eins Zeitraums und einer Absender Kundennummer.
+(C) Deutsche Post AG
+-->
+<n:Request xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:n="urn:www-deutschepost-de:Fulfillment/CertificationTrackEventInformation/1.1/getTrackEventsRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:te="urn:www-deutschepost-de:Fulfillment/CertificationTrackEventInformation/1.1/tecommon">
+       <getTrackEventsRequest version="1.1" testcase="true">
+		<MsgHeader>
+			<User>User</User>
+			<Password>Passwort</Password>
+			<MsgID>WSGTEIT700001Res</MsgID>			
+			<CreationDateTime>2015-11-11T17:40:00</CreationDateTime>
+			<Receiver>DPAG</Receiver>
+			<SubmitterSMS>
+				<CustID>6000000121</CustID>
+			</SubmitterSMS>
+			<Origin>
+				<SystemName>A-AS1</SystemName>
+			</Origin>
+		</MsgHeader>
+		<TrackEventFilter>
+			<RequestingParty>
+						<CustID>6000000121</CustID>
+					</RequestingParty>
+					<!-- Zur Festlegung des relevanten Zeitraumes. -->
+			<CreationDateTimeFrom>2015-11-02T12:00:00</CreationDateTimeFrom>
+			<CreationDateTimeTo>2015-11-19T00:00:00</CreationDateTimeTo>
+			<Process type="LETTER_INTERNATIONAL"/>
+		</TrackEventFilter>
+	</getTrackEventsRequest>
+</n:Request>

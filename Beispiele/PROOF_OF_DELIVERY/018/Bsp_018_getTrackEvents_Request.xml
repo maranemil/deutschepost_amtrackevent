@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Autor: ITCSP
+Version: 1.0
+Erstellung: 22.02.2016
+Beispiel: 018
+Beschreibung: getTrackEvents-Request für die Abfrage von Zustellnachweis / Warenpost Trackevents anhand einer AM Auftragsnummer
+(C) Deutsche Post AG
+-->
+<n:Request xmlns:n="urn:www-deutschepost-de:Fulfillment/TrackEventInformation/1.1/getTrackEventsRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:www-deutschepost-de:Fulfillment/TrackEventInformation/1.1/getTrackEventsRequest ./getTrackEventsRequest.xsd">
+	<getTrackEventsRequest version="1.1">
+		<MsgHeader>
+			<User>User</User>
+			<Password>Passwort</Password>
+			<MsgID>220216124000A00000018</MsgID>
+			<CreationDateTime>2016-02-22T17:40:00</CreationDateTime>
+			<Receiver>DPAG</Receiver>
+			<SubmitterSMS>
+				<CustID>6998000127</CustID>
+			</SubmitterSMS>
+			<Origin>
+				<SystemName>A-AS1</SystemName>
+				<SystemVersion>1.3</SystemVersion>
+				<CertificationDate>2008-11-01</CertificationDate>
+			</Origin>
+		</MsgHeader>
+		<TrackEventFilter>
+			<!-- Eingabe der AM Auftragsnummer -->
+			<OrderID>00160205032392</OrderID>
+			<!-- Prozess-Typ-ID für Zustellnachweis bzw. Warenpost -->
+			<Process type="PROOF_OF_DELIVERY"/>
+		</TrackEventFilter>
+	</getTrackEventsRequest>
+</n:Request>

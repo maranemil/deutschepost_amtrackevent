@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+AM.exchange Codetable TrackEventInformation LETTER_INTERNATIONAL
+Autor: ITCSP
+Version: 1.1.4
+Erstellung: 01. April 2019
+(C) Deutsche Post AG
+-->
+<n:Response xmlns:n="urn:www-deutschepost-de:Ether/CatalogAccess/1.1/listCatalogValuesResponse" xmlns:CatalogAccess="urn:www-deutschepost-de:Ether/CatalogAccess/1.1/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:www-deutschepost-de:Ether/CatalogAccess/1.1/listCatalogValuesResponse ./listCatalogValuesResponse.xsd">
+	<CatalogValueList>
+		<CatalogValueRecord>
+			<Count>13</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>CodeTableVersion</CatalogName>
+			<CatalogValueName>1.0</CatalogValueName>
+			<CatalogValueID>1</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Version der zu verwendenden AM.exchange-Codetable im Attribut "codeTableVersion"</Description>
+			<Comment>Derzeit immer 1.0</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2006-01-01</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>59</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>ErrCat</CatalogName>
+			<CatalogValueName>WARNING</CatalogValueName>
+			<CatalogValueID>1</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>WARNING - Bei dem Fehler handelt es sich um eine Warnung</Description>
+			<Comment>Rückgabewert der AM Service-Operationen</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2006-01-01</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>60</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>ErrCat</CatalogName>
+			<CatalogValueName>ERROR</CatalogValueName>
+			<CatalogValueID>2</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>ERROR - Bei dem Fehler handelt es sich um einen Fehler</Description>
+			<Comment>Rückgabewert der AM Service-Operationen</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2006-01-01</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>80</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>MailEntity.Type</CatalogName>
+			<CatalogValueName>LETTER</CatalogValueName>
+			<CatalogValueID>1</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Brief</Description>
+			<Comment>Typ der postalischen Einheit</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2007-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>81</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>MailEntity.Type</CatalogName>
+			<CatalogValueName>BDL</CatalogValueName>
+			<CatalogValueID>2</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Bund</Description>
+			<Comment>Typ der postalischen Einheit</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2007-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>82</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>MailEntity.Type</CatalogName>
+			<CatalogValueName>TRA</CatalogValueName>
+			<CatalogValueID>3</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Behälter</Description>
+			<Comment>Typ der postalischen Einheit</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2007-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>83</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>MailEntity.Type</CatalogName>
+			<CatalogValueName>TRT</CatalogValueName>
+			<CatalogValueID>4</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Behälterwagen</Description>
+			<Comment>Typ der postalischen Einheit</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2007-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>84</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>MailEntity.Type</CatalogName>
+			<CatalogValueName>PAL</CatalogValueName>
+			<CatalogValueID>5</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Palette</Description>
+			<Comment>Typ der postalischen Einheit</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2007-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>339</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>ERR</CatalogValueName>
+			<CatalogValueID>102</CatalogValueID>
+			<validFrom>2015-11-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Aktivierung der Sendung für die Statusverfolgung konnte nicht durchgeführt werden.</Description>
+			<Comment>Verwendung beim Process.type "INTERNATIONAL_LETTER"</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-22</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>340</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>EMA</CatalogValueName>
+			<CatalogValueID>103</CatalogValueID>
+			<validFrom>2015-11-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde für die Statusverfolgung aktiviert.</Description>
+			<Comment>Verwendung beim Process.type "INTERNATIONAL_LETTER"</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-22</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>341</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>EMB</CatalogValueName>
+			<CatalogValueID>104</CatalogValueID>
+			<validFrom>2015-11-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung ist im internationalen Logistikzentrum eingegangen.</Description>
+			<Comment>Verwendung beim Process.type "INTERNATIONAL_LETTER"</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-22</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>342</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>EMC</CatalogValueName>
+			<CatalogValueID>105</CatalogValueID>
+			<validFrom>2015-11-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde im internationalen Logistikzentrum in das Zielland abgeleitet.</Description>
+			<Comment>Verwendung beim Process.type "INTERNATIONAL_LETTER"</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-22</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>343</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>EMD</CatalogValueName>
+			<CatalogValueID>106</CatalogValueID>
+			<validFrom>2015-11-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde im Zielland erfasst.</Description>
+			<Comment>Verwendung beim Process.type "INTERNATIONAL_LETTER"</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-22</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>344</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>EDB</CatalogValueName>
+			<CatalogValueID>107</CatalogValueID>
+			<validFrom>2015-11-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde im Zielland dem Zoll übergeben.</Description>
+			<Comment>Verwendung beim Process.type "INTERNATIONAL_LETTER"</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-22</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>345</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>EME</CatalogValueName>
+			<CatalogValueID>108</CatalogValueID>
+			<validFrom>2015-11-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Auslieferung der Sendung wurde vom Zoll angehalten.</Description>
+			<Comment>Verwendung beim Process.type "INTERNATIONAL_LETTER"</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-22</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>346</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>EDC</CatalogValueName>
+			<CatalogValueID>109</CatalogValueID>
+			<validFrom>2015-11-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde vom Zoll an die Auswechselstelle im Zielland übergeben.</Description>
+			<Comment>Verwendung beim Process.type "INTERNATIONAL_LETTER"</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-22</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>347</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Step</CatalogName>
+			<CatalogValueName>EMF</CatalogValueName>
+			<CatalogValueID>110</CatalogValueID>
+			<validFrom>2015-11-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Die Sendung wurde im Zielland zum Briefzentrum des Bestimmungsortes weitergeleitet.</Description>
+			<Comment>Verwendung beim Process.type "INTERNATIONAL_LETTER"</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-22</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>367</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Process.Type</CatalogName>
+			<CatalogValueName>LETTER_INTERNATIONAL</CatalogValueName>
+			<CatalogValueID>6</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Zur Abfrage von Ereignissen zu Briefsendungen in das Ausland mit der Dienstleistung Ländernachweis, die mit einem RFID-Transponder versehen sind</Description>
+			<Comment>Prozesstyp</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2007-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>389</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Receiver</CatalogName>
+			<CatalogValueName>DPAG</CatalogValueName>
+			<CatalogValueID>1</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Stets zu verwendender Wert für MsgHeader.Receiver</Description>
+			<Comment>In Version 1.0 ist immer "DPAG" für dieses Nachrichtenfeld zu verwenden.</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2006-01-01</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>390</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>ReturnCode</CatalogName>
+			<CatalogValueName>OK</CatalogValueName>
+			<CatalogValueID>1</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Der Request wurde korrekt verarbeitet.</Description>
+			<Comment>Gesamtstatus der Verarbeitung eines Requests</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2006-01-01</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>391</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>ReturnCode</CatalogName>
+			<CatalogValueName>WARNING</CatalogValueName>
+			<CatalogValueID>2</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Der Request wurde verarbeitet, es sind aber Warnungen aufgetreten.</Description>
+			<Comment>Gesamtstatus der Verarbeitung eines Requests</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2006-01-01</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>392</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>ReturnCode</CatalogName>
+			<CatalogValueName>ERROR</CatalogValueName>
+			<CatalogValueID>3</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Der Request wurde nicht verarbeitet, da Fehler aufgetreten sind.</Description>
+			<Comment>Gesamtstatus der Verarbeitung eines Requests</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2006-01-01</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>436</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>SystemName</CatalogName>
+			<CatalogValueName>TEI</CatalogValueName>
+			<CatalogValueID>3</CatalogValueID>
+			<validFrom>2008-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>In Version 1.0 des Protokolls ist immer "TEI" einzusetzen.</Description>
+			<Comment>Name des Systems, dem die Nachricht entstammt.</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-24</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>514</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Unit.Height</CatalogName>
+			<CatalogValueName>mm</CatalogValueName>
+			<CatalogValueID>1</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Angabe der Höhe erfolgt in Millimeter</Description>
+			<Comment>Einheit für die Angabe einer Höhe</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2008-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>515</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Unit.Height</CatalogName>
+			<CatalogValueName>cm</CatalogValueName>
+			<CatalogValueID>2</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Angabe der Höhe erfolgt in Zentimeter</Description>
+			<Comment>Einheit für die Angabe einer Höhe</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2008-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>516</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Unit.Length</CatalogName>
+			<CatalogValueName>mm</CatalogValueName>
+			<CatalogValueID>1</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Angabe der Länge erfolgt in Millimeter</Description>
+			<Comment>Einheit für die Angabe einer Länge</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2008-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>517</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Unit.Length</CatalogName>
+			<CatalogValueName>cm</CatalogValueName>
+			<CatalogValueID>2</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Angabe der Länge erfolgt in Zentimeter</Description>
+			<Comment>Einheit für die Angabe einer Länge</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2008-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>520</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Unit.weight</CatalogName>
+			<CatalogValueName>g</CatalogValueName>
+			<CatalogValueID>1</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Gewichtsangabe erfolgt in Gramm</Description>
+			<Comment>Einheit für eine Gewichtsangabe</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2006-01-01</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>521</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Unit.weight</CatalogName>
+			<CatalogValueName>kg</CatalogValueName>
+			<CatalogValueID>2</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Gewichtsangabe erfolgt in Kilogramm</Description>
+			<Comment>Einheit für eine Gewichtsangabe</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2006-01-01</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>522</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Unit.Width</CatalogName>
+			<CatalogValueName>mm</CatalogValueName>
+			<CatalogValueID>1</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Angabe der Breite erfolgt in Millimeter</Description>
+			<Comment>Einheit für die Angabe einer Breite</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2008-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>523</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Unit.Width</CatalogName>
+			<CatalogValueName>cm</CatalogValueName>
+			<CatalogValueID>2</CatalogValueID>
+			<validFrom>2006-01-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Angabe der Breite erfolgt in Zentimeter</Description>
+			<Comment>Einheit für die Angabe einer Breite</Comment>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2008-12-15</ChangedAt>
+		</CatalogValueRecord>
+		<CatalogValueRecord>
+			<Count>525</Count>
+			<SystemName>AM</SystemName>
+			<SystemID>29</SystemID>
+			<CatalogName>Version</CatalogName>
+			<CatalogValueName>1.1</CatalogValueName>
+			<CatalogValueID>3</CatalogValueID>
+			<validFrom>2015-07-01</validFrom>
+			<validTo>9999-12-31</validTo>
+			<Description>Version 1.1</Description>
+			<Comment/>
+			<ChangedBy>AM</ChangedBy>
+			<ChangedAt>2016-03-24</ChangedAt>
+		</CatalogValueRecord>
+	</CatalogValueList>
+</n:Response>

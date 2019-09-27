@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Autor: René Rondot
+Version: 1.0
+Erstellung: 16.06.2015
+Beispiel: 003
+Beschreibung: Einfacher getTrackEvents-Request für die Abfrage eines Track-Events mit einem kundenindividuellen Merkmal aus dem Data-Matrix-Code.
+(C) Deutsche Post AG
+-->
+<ns3:Response xmlns:ns3="urn:www-deutschepost-de:Fulfillment/TrackEventInformation/1.1/getTrackEventsResponse" xmlns:ns2="urn:www-deutschepost-de:Fulfillment/TrackEventInformation/1.1/getTrackEventsResponse">
+	<getTrackEventsResponse codeTableVersion="1.0" testcase="false" version="1.0">
+		<Return>
+			<ReturnCode>OK</ReturnCode>
+		</Return>
+		<MsgHeader>
+			<MsgID>081105102356A00000001</MsgID>
+			<CreationDateTime>2015-06-16T10:12:08.394</CreationDateTime>
+			<Receiver>6002000131</Receiver>
+			<Origin>
+				<SystemName>TEI</SystemName>
+				<SystemVersion>1.0</SystemVersion>
+			</Origin>
+		</MsgHeader>
+		<TrackEventList>
+			<TrackEvent consecutiveNumber="1">
+				<!-- Der Zeitpunkt, an dem das Trackevent - in diesem Fall die Verarbeitung im Briefzentrum - erfasst wurde. -->
+				<CreationDateTime>2015-01-06T00:00:00+01:00</CreationDateTime>
+				<!-- Es handelt sich um ein Trackevent zu dem im Request nachgefragten Brief mit dem entsprechenden kundenindividuellen Merkmal aus dem Data-Matrix-Code. -->
+				<MailEntity id="Kundenkennzeichen" type="LETTER"/>
+				<!-- Track Event zum Prozessschritt: "Die Sendung wurde im Briefzentrum verarbeitet." -->				
+				<Process step="PASSED_LETTER_CENTER" type="TNT_LETTER_SEARCH-BY-CUSTOMER-DATA"/>
+				<Observation>
+					<Comment>21v32-Großbrief-NATIONAL</Comment>
+				</Observation>
+			</TrackEvent>
+		</TrackEventList>
+	</getTrackEventsResponse>
+</ns3:Response>

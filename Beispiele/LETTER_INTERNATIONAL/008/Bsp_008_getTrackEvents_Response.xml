@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Autor: Damian Ludwig
+Version: 1.0
+Erstellung: 19.11.2015
+Beispiel: 008
+Beschreibung: getTrackEvents-Response für die Abfrage von internationalen Sendungen Anhand eins Zeitraums und einer Absender Kundennummer.
+(C) Deutsche Post AG
+-->
+<ns2:Response xmlns:ns2="urn:www-deutschepost-de:Fulfillment/CertificationTrackEventInformation/1.1/getTrackEventsResponse">
+         <getTrackEventsResponse codeTableVersion="1.0" testcase="false" version="1.1">
+            <Return>
+               <ReturnCode>OK</ReturnCode>
+            </Return>
+            <MsgHeader>
+               <MsgID>WSGTEIT700001Res</MsgID>
+               <CreationDateTime>2015-11-19T10:52:39.790</CreationDateTime>
+               <Receiver>6000000121</Receiver>
+               <Origin>
+                  <SystemName>TEI</SystemName>
+                  <SystemVersion>1.1</SystemVersion>
+               </Origin>
+            </MsgHeader>
+            <TrackEventList>
+            <!-- Wird je Sendungs-ID erstellt -->
+               <TrackEvent consecutiveNumber="1">
+               <!-- Erstellzeitpunkt des Events -->
+                  <CreationDateTime>2015-11-18T19:46:39.000+01:00</CreationDateTime>
+                  <!-- AM-Auftragsnummer-->
+                  <OrderID>00000008429968</OrderID>
+                  <!-- Sendungs-ID und Prozesstyp-->
+                  <MailEntity id="AV109000086DE" type="LETTER"/>
+                  <!-- Status siehe auch die zugehörige Codetable-->
+                  <Process step="EMB" type="LETTER_INTERNATIONAL"/>
+                  <Observation>
+                     <MailEntityLocation>
+                        <Address>
+                        <!-- Land in welchem der Event erstellt wurde -->
+                           <CC>DE</CC>
+                        </Address>
+                     </MailEntityLocation>
+                  </Observation>
+               </TrackEvent>
+               <TrackEvent consecutiveNumber="2">
+                  <CreationDateTime>2015-11-18T19:46:39.000+01:00</CreationDateTime>
+                  <OrderID>00000008429968</OrderID>
+                  <MailEntity id="AV109000087DE" type="LETTER"/>
+                  <Process step="EMF" type="LETTER_INTERNATIONAL"/>
+                  <Observation>
+                     <MailEntityLocation>
+                        <Address>
+                           <CC>BE</CC>
+                        </Address>
+                     </MailEntityLocation>
+                  </Observation>
+               </TrackEvent>
+               <TrackEvent consecutiveNumber="3">
+                  <CreationDateTime>2015-11-18T19:46:39.000+01:00</CreationDateTime>
+                  <OrderID>00000008429968</OrderID>
+                  <MailEntity id="AV109000088DE" type="LETTER"/>
+                  <Process step="EDC" type="LETTER_INTERNATIONAL"/>
+                  <Observation>
+                     <MailEntityLocation>
+                        <Address>
+                           <CC>NL</CC>
+                        </Address>
+                     </MailEntityLocation>
+                  </Observation>
+               </TrackEvent>
+               <TrackEvent consecutiveNumber="4">
+                  <CreationDateTime>2015-11-18T19:46:39.000+01:00</CreationDateTime>
+                  <OrderID>00000008429968</OrderID>
+                  <MailEntity id="AV109000089DE" type="LETTER"/>
+                  <Process step="ERR" type="LETTER_INTERNATIONAL"/>
+                  <Observation>
+                     <MailEntityLocation>
+                        <Address>
+                           <CC>DE</CC>
+                        </Address>
+                     </MailEntityLocation>
+                  </Observation>
+               </TrackEvent>
+               <TrackEvent consecutiveNumber="5">
+                  <CreationDateTime>2015-11-18T19:54:06.000+01:00</CreationDateTime>
+                  <OrderID>00000008430048</OrderID>
+                  <MailEntity id="AV119000086DE" type="LETTER"/>
+                  <Process step="EME" type="LETTER_INTERNATIONAL"/>
+                  <Observation>
+                     <MailEntityLocation>
+                        <Address>
+                           <CC>DE</CC>
+                        </Address>
+                     </MailEntityLocation>
+                  </Observation>
+               </TrackEvent>
+               <TrackEvent consecutiveNumber="6">
+                  <CreationDateTime>2015-11-18T19:54:06.000+01:00</CreationDateTime>
+                  <OrderID>00000008430048</OrderID>
+                  <MailEntity id="AV119000087DE" type="LETTER"/>
+                  <Process step="EMA" type="LETTER_INTERNATIONAL"/>
+                  <Observation>
+                     <MailEntityLocation>
+                        <Address>
+                           <CC>DE</CC>
+                        </Address>
+                     </MailEntityLocation>
+                  </Observation>
+               </TrackEvent>
+               <TrackEvent consecutiveNumber="7">
+                  <CreationDateTime>2015-11-18T19:54:06.000+01:00</CreationDateTime>
+                  <OrderID>00000008430048</OrderID>
+                  <MailEntity id="AV119000088DE" type="LETTER"/>
+                  <Process step="EMC" type="LETTER_INTERNATIONAL"/>
+                  <Observation>
+                     <MailEntityLocation>
+                        <Address>
+                           <CC>DE</CC>
+                        </Address>
+                     </MailEntityLocation>
+                  </Observation>
+               </TrackEvent>
+               <TrackEvent consecutiveNumber="8">
+                  <CreationDateTime>2015-11-18T19:54:06.000+01:00</CreationDateTime>
+                  <OrderID>00000008430048</OrderID>
+                  <MailEntity id="AV119000089DE" type="LETTER"/>
+                  <Process step="EDB" type="LETTER_INTERNATIONAL"/>
+                  <Observation>
+                     <MailEntityLocation>
+                        <Address>
+                           <CC>AT</CC>
+                        </Address>
+                     </MailEntityLocation>
+                  </Observation>
+               </TrackEvent>
+               <TrackEvent consecutiveNumber="9">
+                  <CreationDateTime>2015-11-18T19:54:06.000+01:00</CreationDateTime>
+                  <OrderID>00000008430048</OrderID>
+                  <MailEntity id="AV119000186DE" type="LETTER"/>
+                  <Process step="EMD" type="LETTER_INTERNATIONAL"/>
+                  <Observation>
+                     <MailEntityLocation>
+                        <Address>
+                           <CC>NL</CC>
+                        </Address>
+                     </MailEntityLocation>
+                  </Observation>
+               </TrackEvent>
+               <TrackEvent consecutiveNumber="10">
+                  <CreationDateTime>2015-11-18T19:40:14.000+01:00</CreationDateTime>
+                  <OrderID>00000008427718</OrderID>
+                  <MailEntity id="AV999000086DE" type="LETTER"/>
+                  <Process step="EDB" type="LETTER_INTERNATIONAL"/>
+                  <Observation>
+                     <MailEntityLocation>
+                        <Address>
+                           <CC>AT</CC>
+                        </Address>
+                     </MailEntityLocation>
+                  </Observation>
+               </TrackEvent>
+               <TrackEvent consecutiveNumber="11">
+                  <CreationDateTime>2015-11-18T19:40:14.000+01:00</CreationDateTime>
+                  <OrderID>00000008427718</OrderID>
+                  <MailEntity id="AV999000087DE" type="LETTER"/>
+                  <Process step="ERR" type="LETTER_INTERNATIONAL"/>
+                  <Observation>
+                     <MailEntityLocation>
+                        <Address>
+                           <CC>DE</CC>
+                        </Address>
+                     </MailEntityLocation>
+                  </Observation>
+               </TrackEvent>
+               <TrackEvent consecutiveNumber="12">
+                  <CreationDateTime>2015-11-18T19:40:14.000+01:00</CreationDateTime>
+                  <OrderID>00000008427718</OrderID>
+                  <MailEntity id="AV999000088DE" type="LETTER"/>
+                  <Process step="EMD" type="LETTER_INTERNATIONAL"/>
+                  <Observation>
+                     <MailEntityLocation>
+                        <Address>
+                           <CC>DE</CC>
+                        </Address>
+                     </MailEntityLocation>
+                  </Observation>
+               </TrackEvent>
+               <TrackEvent consecutiveNumber="13">
+                  <CreationDateTime>2015-11-18T19:40:14.000+01:00</CreationDateTime>
+                  <OrderID>00000008427718</OrderID>
+                  <MailEntity id="AV999000089DE" type="LETTER"/>
+                  <Process step="EDC" type="LETTER_INTERNATIONAL"/>
+                  <Observation>
+                     <MailEntityLocation>
+                        <Address>
+                           <CC>DE</CC>
+                        </Address>
+                     </MailEntityLocation>
+                  </Observation>
+               </TrackEvent>
+               <TrackEvent consecutiveNumber="14">
+                  <CreationDateTime>2015-11-18T19:40:14.000+01:00</CreationDateTime>
+                  <OrderID>00000008427718</OrderID>
+                  <MailEntity id="AV999000186DE" type="LETTER"/>
+                  <Process step="EMF" type="LETTER_INTERNATIONAL"/>
+                  <Observation>
+                     <MailEntityLocation>
+                        <Address>
+                           <CC>NL</CC>
+                        </Address>
+                     </MailEntityLocation>
+                  </Observation>
+               </TrackEvent>
+               <TrackEvent consecutiveNumber="15">
+                  <CreationDateTime>2015-11-18T19:40:14.000+01:00</CreationDateTime>
+                  <OrderID>00000008427718</OrderID>
+                  <MailEntity id="AV999000286DE" type="LETTER"/>
+                  <Process step="EMC" type="LETTER_INTERNATIONAL"/>
+                  <Observation>
+                     <MailEntityLocation>
+                        <Address>
+                           <CC>DE</CC>
+                        </Address>
+                     </MailEntityLocation>
+                  </Observation>
+               </TrackEvent>
+               <TrackEvent consecutiveNumber="16">
+                  <CreationDateTime>2015-11-18T19:40:14.000+01:00</CreationDateTime>
+                  <OrderID>00000008427718</OrderID>
+                  <MailEntity id="AV999000386DE" type="LETTER"/>
+                  <Process step="EMB" type="LETTER_INTERNATIONAL"/>
+                  <Observation>
+                     <MailEntityLocation>
+                        <Address>
+                           <CC>FR</CC>
+                        </Address>
+                     </MailEntityLocation>
+                  </Observation>
+               </TrackEvent>
+               <TrackEvent consecutiveNumber="17">
+                  <CreationDateTime>2015-11-18T19:40:14.000+01:00</CreationDateTime>
+                  <OrderID>00000008427718</OrderID>
+                  <MailEntity id="AV999000486DE" type="LETTER"/>
+                  <Process step="ERR" type="LETTER_INTERNATIONAL"/>
+                  <Observation>
+                     <MailEntityLocation>
+                        <Address>
+                           <CC>DE</CC>
+                        </Address>
+                     </MailEntityLocation>
+                  </Observation>
+               </TrackEvent>
+               <TrackEvent consecutiveNumber="18">
+                  <CreationDateTime>2015-11-18T19:40:14.000+01:00</CreationDateTime>
+                  <OrderID>00000008427718</OrderID>
+                  <MailEntity id="AV999000586DE" type="LETTER"/>
+                  <Process step="EMA" type="LETTER_INTERNATIONAL"/>
+                  <Observation>
+                     <MailEntityLocation>
+                        <Address>
+                           <CC>DE</CC>
+                        </Address>
+                     </MailEntityLocation>
+                  </Observation>
+               </TrackEvent>
+               <TrackEvent consecutiveNumber="19">
+                  <CreationDateTime>2015-11-18T19:25:09.000+01:00</CreationDateTime>
+                  <OrderID>00000008427718</OrderID>
+                  <MailEntity id="AV999000686DE" type="LETTER"/>
+                  <Process step="EMA" type="LETTER_INTERNATIONAL"/>
+                  <Observation>
+                     <MailEntityLocation>
+                        <Address>
+                           <CC>AT</CC>
+                        </Address>
+                     </MailEntityLocation>
+                  </Observation>
+               </TrackEvent>
+               <TrackEvent consecutiveNumber="20">
+                  <CreationDateTime>2015-11-18T18:44:27.000+01:00</CreationDateTime>
+                  <OrderID>00000008427718</OrderID>
+                  <MailEntity id="AV999000786DE" type="LETTER"/>
+                  <Process step="ERR" type="LETTER_INTERNATIONAL"/>
+                  <Observation>
+                     <MailEntityLocation>
+                        <Address>
+                           <CC>DE</CC>
+                        </Address>
+                     </MailEntityLocation>
+                  </Observation>
+               </TrackEvent>
+            </TrackEventList>
+         </getTrackEventsResponse>
+      </ns2:Response>

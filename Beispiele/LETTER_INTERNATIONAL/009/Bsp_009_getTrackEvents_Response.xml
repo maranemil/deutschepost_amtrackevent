@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Autor: Damian Ludwig
+Version: 1.0
+Erstellung: 19.11.2015
+Beispiel: 009
+Beschreibung: getTrackEvents-Response für die Abfrage von internationalen Sendungen Anhand eins Zeitraums und einer Sendungsnummer.
+(C) Deutsche Post AG
+-->
+<ns2:Response xmlns:ns2="urn:www-deutschepost-de:Fulfillment/CertificationTrackEventInformation/1.1/getTrackEventsResponse">
+         <getTrackEventsResponse codeTableVersion="1.0" testcase="false" version="1.1">
+            <Return>
+               <ReturnCode>OK</ReturnCode>
+            </Return>
+            <MsgHeader>
+               <MsgID>WSGTEIT700001Res</MsgID>
+               <CreationDateTime>2015-11-19T11:00:52.289</CreationDateTime>
+               <Receiver>6000000121</Receiver>
+               <Origin>
+                  <SystemName>TEI</SystemName>
+                  <SystemVersion>1.1</SystemVersion>
+               </Origin>
+            </MsgHeader>
+            <TrackEventList>
+               <TrackEvent consecutiveNumber="1">
+               <!--Zeitpunkt der Erstellung des Events -->
+                  <CreationDateTime>2015-11-18T19:40:14.000+01:00</CreationDateTime>
+                  <!-- AM- Auftragsnummer -->
+                  <OrderID>00000008427718</OrderID>
+                  <!-- Sendungs-ID -->
+                  <MailEntity id="AV999000586DE" type="LETTER"/>
+                   <!-- Status siehe auch die zugehörige Codetable-->
+                  <Process step="EMA" type="LETTER_INTERNATIONAL"/>
+                  <Observation>
+                     <MailEntityLocation>
+                        <Address>
+                        <!-- Land in welchem der Event erstellt wurde -->
+                           <CC>DE</CC>
+                        </Address>
+                     </MailEntityLocation>
+                  </Observation>
+               </TrackEvent>
+            </TrackEventList>
+         </getTrackEventsResponse>
+      </ns2:Response>

@@ -1,0 +1,10 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:www-deutschepost-de:Fulfillment/CertificationTrackEventInformation/1.1/getTrackEventsRequest" xmlns:te="urn:www-deutschepost-de:Fulfillment/CertificationTrackEventInformation/1.1/tecommon" targetNamespace="urn:www-deutschepost-de:Fulfillment/CertificationTrackEventInformation/1.1/getTrackEventsRequest">
+	<xsd:import namespace="urn:www-deutschepost-de:Fulfillment/CertificationTrackEventInformation/1.1/tecommon" schemaLocation="./tecommon.xsd"/>
+	<xsd:element name="Request">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element minOccurs="0" name="getTrackEventsRequest" type="te:GetTrackEventsRequestType"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
